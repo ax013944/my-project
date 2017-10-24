@@ -20,5 +20,9 @@ public class tester extends hello {
       System.out.println(n1);
       int n2=r.nextInt(6)+1;
       System.out.println(3==2);
+      int len = s.length();
+      System.out.println("len:"+len);
+      System.out.println(s.charAt(1));
+      String s2="Haaaaaaaaa";
 	}
 }
