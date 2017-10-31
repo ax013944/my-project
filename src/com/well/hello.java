@@ -9,7 +9,7 @@ public class hello {
 		person p = new person();
 				p.sayhello();
         System.out.print("請輸入你的名字:");
-        Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
         String line=scanner.nextLine();
         System.out.println("歡迎回來,"+line);
         System.out.println("你幾歲阿?");
