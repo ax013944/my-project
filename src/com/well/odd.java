@@ -32,14 +32,15 @@ public class odd {
 		}
 		for (int i = 5; i < 10; i = i + 1) {
 			System.out.println("2 x " + i + " = " + (i * 2));
+
 		}
-		for (int n = 1; n < 10; n = n + 1) {
+		for (int n = 2; n < 10; n = n + 1) {
 			for (int i = 1; i < 10; i = i + 1) {
 				if (i * n < 10) {
-					System.out.println(n + " x " + i + " =  " + (i * n));
+					System.out.print(n + " x " + i + " =  " + (i * n) + " ");
 
 				} else {
-					System.out.println(n + " x " + i + " = " + (i * n));
+					System.out.print(n + " x " + i + " = " + (i * n) + " ");
 				}
 			}
 			System.out.println(" ");
