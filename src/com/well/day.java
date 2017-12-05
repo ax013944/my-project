@@ -21,21 +21,17 @@ public class day {
 
 		int p[] = { 2, 5, 4, 3, 1 };
 		for (int y = 0; y < p.length; y++) {
-			for (int l = 0; l < p.length; l++) {
-				if (p[l] > p[l + 1]) {
-					int bac = p[l];
-					p[l] = p[l + 1];
-					p[l + 1] = bac;
+			for (int l=y+1; l < p.length; l++) {
+				if (p[y] > p[l]) {
+					int bac = p[y];
+					p[y] = p[l];
+					p[l] = bac;
 				}
 			}
 		}
-
-		int s = 2;
-		int w = 200;
-		int tmp = s;
-		s = w;
-		w = tmp;
-		System.out.println(s);
-		System.out.println(w);
+		for(int num :p){
+			System.out.print(num+" ");
+		}
+		
 	}
 }
