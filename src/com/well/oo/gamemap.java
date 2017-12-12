@@ -16,7 +16,7 @@ public class gamemap {
 			switch (n) {
 			case 2:
 				System.out.println("向下");
-				if(pos/col<row){pos=pos+col;hp=hp-5;}
+				if(pos/col<row-1){pos=pos+col;hp=hp-5;}
 				else{hp=hp-30;}
 				System.out.println("血量剩"+hp+"現在在"+pos);
 				break;
@@ -40,7 +40,13 @@ public class gamemap {
 				break;
 			case 0:
 				System.out.println("heal");
-				if(hp>0){hp=hp+20;}
+				if(hp<100){hp=hp+20;}
+				System.out.println("血量剩"+hp+"現在在"+pos);
+				break;
+			case 5:
+				System.out.println("skill");
+				if(hp>1){hp=hp-(hp-1);pos=0;}
+				else{hp=0;}
 				System.out.println("血量剩"+hp+"現在在"+pos);
 				break;
 			}
