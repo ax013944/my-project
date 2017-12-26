@@ -6,6 +6,10 @@ public class Student {
 	int Chinese;
 	String name;
 
+	public Student(){
+		
+	}
+	
 	public Student(String name, int chinese, int math, int english) {
 		this.name = name;
 		this.Chinese = chinese;
