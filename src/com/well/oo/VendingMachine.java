@@ -14,5 +14,7 @@ public class VendingMachine {
 		drinks[2] = new VendingMachine2("c", i*30);
 		
 		d1.print();
+		
+		
 	}
 }

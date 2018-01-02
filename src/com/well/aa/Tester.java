@@ -1,4 +1,6 @@
-package com.well.oo;
+package com.well.aa;
+
+import com.well.oo.Student;
 
 public class Tester {
 
@@ -10,7 +12,7 @@ public class Tester {
 		// sk.English = 3;
 		sk.print();
 		int avg = sk.getaverage();
-		System.out.println(sk.name + "ензб:" + avg);
-
+		//System.out.println(sk.name + "ензб:");
+		
 	}
 }

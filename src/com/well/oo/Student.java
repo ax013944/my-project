@@ -1,11 +1,11 @@
 package com.well.oo;
 
 public class Student {
-	int Math;
+	protected int Math;
 	int English;
 	int Chinese;
 	String name;
-
+	private int pass;
 	public Student(){
 		
 	}
@@ -21,7 +21,7 @@ public class Student {
 	public Student(String name) {
 		this.name = name;
 	}
-
+	
 	public void print() {
 		System.out.println(Chinese + "\t" + Math + "\t" + English);
 
@@ -29,5 +29,8 @@ public class Student {
 
 	public int getaverage() {
 		return (English + Math + Chinese) / 3;
+	
+	
+		
 	}
 }
