@@ -10,7 +10,7 @@ public class customer {
 
 	public void print() {
 		int total = (int) (amount * (1 - discount));
-		System.out.print(amount + "/t" + total);
+		System.out.println(amount + "\t" + total);
 
 	}
 }
