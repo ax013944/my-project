@@ -30,7 +30,7 @@ public class gamemap {
 				System.out.println("向右");
 				if(pos%col<col-1){pos=pos+1;hp=hp-5;}
 				else{hp=hp-30;}
-				System.out.println("血量剩"+hp+"現在在"+pos);
+				System.out.println("血量剩"+hp+"現在在"+pos);			
 				break;
 			case 8:
 				System.out.println("向上");

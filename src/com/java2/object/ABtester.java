@@ -10,8 +10,6 @@ public class ABtester {
 		int result = 0;
 		while (result != 40) {
 			System.out.print("Please enter numbers");
-	        ABCNumber n = new ABCNumber(scanner.nextLine());
-			result = n.validate(secret);
 			System.out.print((result / 10) + "A" + (result / 10) + "B");
 
 		}
