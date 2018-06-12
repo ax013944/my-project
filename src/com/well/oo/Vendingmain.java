@@ -10,6 +10,7 @@ public class Vendingmain {
 		VendingMachine3 vm = new VendingMachine3();
 		FileReader fr = null ;
 		try {
+			fr =new FileReader("vending.txt");
 			BufferedReader in = new BufferedReader(fr);
 			String line = in.readLine();
 			String[] token = line.split(",");
